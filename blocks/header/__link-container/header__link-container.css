@@ -1,0 +1,25 @@
+.header__link-container {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin: 46px 48px 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 780px) {
+    .header__link-container {
+    margin: 46px 24px 0 0;
+    } 
+}
+
+@media screen and (max-width: 430px) {
+    .header__link-container {
+    margin: 38px 20px 0 0;
+    } 
+}
+
+@media screen and (max-width: 330px) {
+    .header__link-container {
+    margin: 30px 16px 0 0;
+    } 
+}

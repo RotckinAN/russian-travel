@@ -1,0 +1,31 @@
+.lead__image-container {
+    margin: 64px auto 0;
+    width: calc(100% - 148px - 148px);
+}
+
+@media screen and (max-width: 1200px) {
+    .lead__image-container {
+        margin: 56px auto 0;
+        width: calc(100% - 48px - 48px);
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .lead__image-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .lead__image-container {
+    margin: 48px auto 0;
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .lead__image-container {
+    margin: 40px auto 0;
+    width: 100%;
+    }
+}
