@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 430px) {
     .intro_position_center {
-    max-width: calc(100% - 20px - 20px);    
+    max-width: calc(100% - 20px - 20px);
     margin: 0 20px 0 20px;
     }
 }
