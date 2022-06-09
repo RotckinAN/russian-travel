@@ -3,5 +3,35 @@
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    margin: 40px 0 0 0;
+    margin: 40px 0 0 148px;
+}
+
+@media screen and (max-width: 1030px) {
+    .intro__text {
+    margin-left: 48px;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 850px) {
+    .intro__text {
+    margin-right: 48px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .intro__text {
+    margin: 40px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .intro__text {
+    margin: 40px 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .intro__text {
+    margin: 40px 16px 0 16px;
+    }
 }
