@@ -1,23 +1,32 @@
 .page__footer {
-    max-width: 1280px;
-    margin: 0 48px;
+    max-width: calc(1280px - 48px - 48px);
+    margin: 0 auto;
     padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1250px) {
+    .page__footer {
+    max-width: calc(100% - 48px - 48px);
+    margin: 0 24px;
+    }
 }
 
 @media screen and (max-width: 780px) {
     .page__footer {
-    margin: 0 24px;
+    max-width: calc(100% - 24px - 24px);
     }
 }
 
 @media screen and (max-width: 430px) {
     .page__footer {
+    max-width: calc(100% - 24px - 24px);
     margin-left: 20px;
     }
 }
 
 @media screen and (max-width: 330px) {
     .page__footer {
+    max-width: calc(100% - 16px);
     margin-left: 16px;
     }
 }
